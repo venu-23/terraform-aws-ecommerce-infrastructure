@@ -1,0 +1,41 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file
+# Keep .terraform.lock.hcl in Git
+# .terraform.lock.hcl
+
+# Secrets
+.env
+*.pem
+*.key
+credentials
+credentials.*
+secret.*
+secrets.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Editor temporary files
+*.swp
+*.swo
+*.swn
+
+# Terraform local working directories
+**/.terraform/*
